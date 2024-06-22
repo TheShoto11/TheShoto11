@@ -61,7 +61,6 @@ function makeSound(key) {
       kick.play();
       break;
 
-       switch (key) {
     case "W":
       var tom1 = new Audio("sound/tom-1.mp3");
       tom1.play();
