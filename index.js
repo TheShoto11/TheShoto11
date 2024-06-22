@@ -15,7 +15,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 }
 
 document.addEventListener("keypress", function(event) {
-var key = event.key.toLowerCase();
+//var key = event.key.toLowerCase();
   
   makeSound(event.key);
 
